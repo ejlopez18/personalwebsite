@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Esme Jimenez — SaaS Product Designer</title>
+
+  <!-- Fonts: Space Grotesk (body), Space Mono (labels), Doto (hero display) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Doto:wght@400&family=Space+Grotesk:wght@300;500&family=Space+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <span class="nav-id">EJ</span>
+    <ul class="nav-links">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="mailto:hello@esmejimenez.com">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-top">
+      <span class="label">SaaS Product Designer</span>
+      <span class="label">
+        <span class="dot" aria-hidden="true">●</span> Available
+      </span>
+    </div>
+
+    <h1 class="hero-name">ESME<br>JIMENEZ</h1>
+
+    <div class="hero-bottom">
+      <p class="hero-bio">
+        Designing SaaS products for industries that don't technically exist yet. Five years turning deeply confusing workflows into merely mildly confusing ones.
+      </p>
+      <div class="hero-meta">
+        <div class="meta-pair">
+          <span class="label">Based in</span>
+          <span class="meta-val">A very tall building that wasn't there last Tuesday</span>
+        </div>
+        <div class="meta-pair">
+          <span class="label">Currently</span>
+          <span class="meta-val">Slalom (the one in this dimension)</span>
+        </div>
+        <div class="meta-pair weather-widget">
+          <span class="label">Antarctica / McMurdo</span>
+          <div class="weather-row">
+            <span id="weather-emoji" class="weather-emoji" aria-label="weather condition">—</span>
+            <span id="weather-temp" class="meta-val">—</span>
+            <span id="weather-wind" class="label weather-wind">—</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- WORK -->
+    <section class="work" id="work">
+      <div class="section-header">
+        <span class="label">Selected Work</span>
+        <span class="label">04 Projects</span>
+      </div>
+
+      <!-- Project 01 — Hero treatment: large title + Doto stat -->
+      <article class="project project--hero">
+        <div class="project-top">
+          <span class="label">01 / B2B SaaS / 2024</span>
+          <span class="label tag tag--shipped">Shipped</span>
+        </div>
+        <h2 class="project-title">Wizard Guild Certification Portal</h2>
+        <p class="project-desc">
+          Rebuilt the onboarding for a platform that certifies professional hedge wizards across 14 magical disciplines. Users were abandoning during the "proof of sentience" step. Reduced time-to-first-enchantment from 47 days to 3 through contextual nudges and a simplified spell intake form.
+        </p>
+        <div class="project-stat">
+          <span class="stat-number">+61%</span>
+          <span class="stat-label">Wizard certification rate</span>
+        </div>
+      </article>
+
+      <!-- Project 02 — Secondary: medium title + progress bar -->
+      <article class="project project--secondary">
+        <div class="project-top">
+          <span class="label">02 / Marketplace / 2024</span>
+          <span class="label tag tag--shipped">Shipped</span>
+        </div>
+        <h2 class="project-title">Ghost Property Listings</h2>
+        <p class="project-desc">
+          Two-sided marketplace matching unquiet spirits with suitable haunting properties. The previous search UX was filtering out 80% of viable listings due to a misclassified "ambiance" field. Worked across legal, paranormal compliance, and the growth team to redesign the search and listing flow.
+        </p>
+        <div class="bar-group">
+          <div class="bar-row">
+            <span class="label">Successful hauntings booked</span>
+            <span class="bar-val">+28%</span>
+          </div>
+          <div class="bar-track"><div class="bar-fill" style="width:56%"></div></div>
+        </div>
+      </article>
+
+      <!-- Project 03 — Secondary: medium title + progress bar -->
+      <article class="project project--secondary">
+        <div class="project-top">
+          <span class="label">03 / Enterprise / 2023</span>
+          <span class="label tag tag--muted">Case Study</span>
+        </div>
+        <h2 class="project-title">Non-Linear Time Scheduling</h2>
+        <p class="project-desc">
+          Analytics dashboard for therapists who serve clients across multiple simultaneous timelines. Eight months of research with users who experience Thursday before Wednesday on a rotating basis. Delivered a handoff so detailed that engineering only asked two questions.
+        </p>
+        <div class="bar-group">
+          <div class="bar-row">
+            <span class="label">Sessions starting on correct day</span>
+            <span class="bar-val">4.9 / 5</span>
+          </div>
+          <div class="bar-track"><div class="bar-fill" style="width:98%"></div></div>
+        </div>
+      </article>
+
+      <!-- Project 04 — Compact: title + desc only -->
+      <article class="project project--compact">
+        <div class="project-top">
+          <span class="label">04 / Design Systems / 2022</span>
+          <span class="label tag tag--muted">Ongoing</span>
+        </div>
+        <h2 class="project-title">Cryptid HR Suite — Component Library</h2>
+        <p class="project-desc">
+          Built a component library for a startup providing HR software to organizations with non-standard employee configurations (seasonal, nocturnal, incorporeal). 120+ components. Three mythological jurisdictions now using it in production.
+        </p>
+      </article>
+
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="section-header">
+        <span class="label">About</span>
+      </div>
+      <div class="about-grid">
+        <p class="about-text">
+          I design SaaS products for industries that weren't supposed to need software. Five years of turning deeply confusing workflows into merely mildly confusing ones — mostly for clients who were vague about what their company actually does.
+          <br><br>
+          I care about decisions that hold up under pressure: in engineering handoffs, in usability tests, in the edge cases that only happen during a full moon or a quarterly review. Good design is boring in the best way. It just works, even for ghosts.
+        </p>
+        <div class="about-meta">
+          <div class="meta-block">
+            <span class="label">Discipline</span>
+            <span class="meta-val">Product Design · UX Research · Paranormal Compliance</span>
+          </div>
+          <div class="meta-block">
+            <span class="label">Tools</span>
+            <span class="meta-val">Figma · Prototyping · A/B Testing · Ouija (read-only)</span>
+          </div>
+          <div class="meta-block">
+            <span class="label">Focus</span>
+            <span class="meta-val">B2B SaaS · Things That Live Under Bridges · Recurring Revenue</span>
+          </div>
+          <div class="meta-block">
+            <span class="label">Education</span>
+            <span class="meta-val">B.S. Cognitive Cartography, Instituto Técnico del Misterio</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-left">
+      <span class="label">Esme Jimenez</span>
+      <span class="label footer-year">© 2026</span>
+    </div>
+    <div class="footer-right">
+      <a href="mailto:hello@esmejimenez.com" class="label footer-link">Email</a>
+      <a href="https://linkedin.com/in/" class="label footer-link">LinkedIn</a>
+    </div>
+  </footer>
+
+  <script src="js/weather.js"></script>
+</body>
+</html>
